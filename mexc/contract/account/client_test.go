@@ -44,6 +44,6 @@ func testNewAccountClient(t *testing.T) *ContractAccountClient {
 func TestGetAccountAsset(t *testing.T) {
 	cli := testNewAccountClient(t)
 
-	_, err := cli.GetAccountAsset(context.TODO())
+	_, err := cli.GetAccountAsset(context.TODO(), "BTC")
 	assert.Nil(t, err)
 }
