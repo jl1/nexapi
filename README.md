@@ -8,9 +8,9 @@ NexAPI is a GO library that integrates official APIs from many well-known crypto
 
 <div align=center>
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/rluisr/nexapi)](https://goreportcard.com/report/github.com/rluisr/nexapi)
+[![Go Report Card](https://goreportcard.com/badge/github.com/jl1/rbt)](https://goreportcard.com/report/github.com/jl1/rbt)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/linstohu/nexapi)](https://github.com/rluisr/nexapi/blob/main/go.mod)
+[![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/linstohu/nexapi)](https://github.com/jl1/rbt/blob/main/go.mod)
 [![Join Linsto Telegram](https://img.shields.io/badge/telegram-linsto-brightgreen?logo=telegram)](https://t.me/linstohu)
 
 </div>
@@ -36,9 +36,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	bnspotmd "github.com/rluisr/nexapi/binance/spot/marketdata"
-	bnspottypes "github.com/rluisr/nexapi/binance/spot/marketdata/types"
-	bnspotutils "github.com/rluisr/nexapi/binance/spot/utils"
+	bnspotmd "github.com/jl1/rbt/binance/spot/marketdata"
+	bnspottypes "github.com/jl1/rbt/binance/spot/marketdata/types"
+	bnspotutils "github.com/jl1/rbt/binance/spot/utils"
 )
 
 func main() {
@@ -82,8 +82,8 @@ import (
 	"fmt"
 	"time"
 
-	spotws "github.com/rluisr/nexapi/binance/spot/websocketmarket"
-	"github.com/rluisr/nexapi/binance/spot/websocketmarket/types"
+	spotws "github.com/jl1/rbt/binance/spot/websocketmarket"
+	"github.com/jl1/rbt/binance/spot/websocketmarket/types"
 )
 
 func main() {

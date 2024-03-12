@@ -1,6 +1,6 @@
 package types
 
-import "github.com/rluisr/nexapi/mexc/utils"
+import "github.com/jl1/rbt/mexc/utils"
 
 type CreateOrderParam struct {
 	Symbol        string   `url:"symbol"`

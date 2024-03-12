@@ -28,9 +28,9 @@ import (
 	"time"
 
 	"github.com/go-playground/validator"
-	"github.com/rluisr/nexapi/mexc/spot/spotaccount/types"
-	spotutils "github.com/rluisr/nexapi/mexc/spot/utils"
-	mexcutils "github.com/rluisr/nexapi/mexc/utils"
+	"github.com/jl1/rbt/mexc/spot/spotaccount/types"
+	spotutils "github.com/jl1/rbt/mexc/spot/utils"
+	mexcutils "github.com/jl1/rbt/mexc/utils"
 )
 
 type SpotAccountClient struct {
