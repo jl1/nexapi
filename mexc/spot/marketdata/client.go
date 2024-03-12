@@ -24,8 +24,8 @@ import (
 	"net/http"
 
 	"github.com/go-playground/validator"
-	"github.com/jl1/rbt/mexc/spot/marketdata/types"
-	spotutils "github.com/jl1/rbt/mexc/spot/utils"
+	"github.com/jl1/nexapi/mexc/spot/marketdata/types"
+	spotutils "github.com/jl1/nexapi/mexc/spot/utils"
 	"github.com/valyala/fastjson"
 )
 

@@ -25,8 +25,8 @@ import (
 	"net/http"
 
 	"github.com/go-playground/validator"
-	"github.com/jl1/rbt/mexc/contract/account/types"
-	"github.com/jl1/rbt/mexc/contract/utils"
+	"github.com/jl1/nexapi/mexc/contract/account/types"
+	"github.com/jl1/nexapi/mexc/contract/utils"
 )
 
 type ContractAccountClient struct {

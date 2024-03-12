@@ -21,8 +21,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/jl1/rbt/mexc/spot/marketdata/types"
-	spotutils "github.com/jl1/rbt/mexc/spot/utils"
+	"github.com/jl1/nexapi/mexc/spot/marketdata/types"
+	spotutils "github.com/jl1/nexapi/mexc/spot/utils"
 	"github.com/stretchr/testify/assert"
 )
 

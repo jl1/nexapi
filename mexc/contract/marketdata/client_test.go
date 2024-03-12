@@ -21,8 +21,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/jl1/rbt/mexc/contract/marketdata/types"
-	"github.com/jl1/rbt/mexc/contract/utils"
+	"github.com/jl1/nexapi/mexc/contract/marketdata/types"
+	"github.com/jl1/nexapi/mexc/contract/utils"
 	"github.com/stretchr/testify/assert"
 )
 

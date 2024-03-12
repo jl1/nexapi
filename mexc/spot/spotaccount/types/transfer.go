@@ -17,7 +17,7 @@
 
 package types
 
-import "github.com/jl1/rbt/mexc/utils"
+import "github.com/jl1/nexapi/mexc/utils"
 
 type TransferParam struct {
 	FromAccountType string `url:"fromAccountType" validate:"required,oneof=SPOT FUTURES"`
